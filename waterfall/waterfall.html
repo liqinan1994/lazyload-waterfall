@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>waterfall</title>
+	<style>
+		.content {
+			position: relative;
+		}
+
+		.content .item {
+			position: absolute;
+			width: 200px;
+			margin-right: 10px;
+			margin-top: 10px;
+			transition: all 0.6s;
+		}
+
+		.content .height1{
+		    height: 200px;
+		    background: #9ff;
+		}
+
+		.content .height2{
+		    height: 500px;
+		    background: #9cf;
+		}
+
+		.content .height3{
+		    height: 600px;
+		    background: #99f;
+		}
+
+		.content .height4{
+		    height: 400px;
+		    background: #96f;
+		}
+	</style>
+</head>
+<body>
+	<div class = "content">
+		<div class="item height1">1</div>
+		<div class="item height2">2</div>
+		<div class="item height3">3</div>
+		<div class="item height4">4</div>
+		<div class="item height3">5</div>
+		<div class="item height1">6</div>
+		<div class="item height1">7</div>
+		<div class="item height2">8</div>
+		<div class="item height4">9</div>
+		<div class="item height2">10</div>
+		<div class="item height3">11</div>
+		<div class="item height4">12</div>
+		<div class="item height1">13</div>
+		<div class="item height3">14</div>
+		<div class="item height3">15</div>
+		<div class="item height4">16</div>
+		<div class="item height2">17</div>
+		<div class="item height1">18</div>
+		<div class="item height2">19</div>
+		<div class="item height4">20</div>
+		<div class="item height2">21</div>
+		<div class="item height3">22</div>
+		<div class="item height3">23</div>
+		<div class="item height1">24</div>
+	    <div class="item height4">25</div>	
+	</div>
+
+	<script src="https://cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script>
+	<script src="./waterfall.js"></script>
+</body>
+</html>
